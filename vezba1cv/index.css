@@ -1,0 +1,162 @@
+/* index.css */
+
+/* CSS COLORS */
+:root {
+/* CSS */
+--baby-powder: #f7f7f2ff;
+--dark-liver: #524948ff;
+--deep-saffron: #fa9f42ff;
+--rose-madder: #e71d36ff;
+--dark-sienna: #301014ff;
+
+/* SCSS HEX 
+$baby-powder: #f7f7f2ff;
+$dark-liver: #524948ff;
+$deep-saffron: #fa9f42ff;
+$rose-madder: #e71d36ff;
+$dark-sienna: #301014ff;
+
+*/
+
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+
+header {
+    position: fixed;
+    height: 5%;
+    width: 80%;
+    left: 10%;
+    background-color: var(--dark-liver);
+    color: var(--baby-powder);
+}
+
+main {
+    position: absolute;
+    width: 80%;
+    left: 10%;
+    height: 95%;
+    top: 5%;
+    background-color: var(--dark-liver);
+}
+
+#profile {
+    position: absolute;
+    height: 100%;
+    width: 20%;
+    left: 0;
+    background-color: var(--baby-powder);
+}
+
+#profile-img {
+    position: absolute;
+    width: 98%;
+    left: 1%;
+    height: 49%;
+    top: 1%;
+    text-align: center;
+}
+
+#profile-img img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#profile-txt {
+    position: absolute;
+    width: 98%;
+    left: 1%;
+    height: 48%;
+    top: 51%;
+    text-align: center;
+}
+
+#profile-txt p {
+    padding-left: 1em;
+    text-align: left;
+}
+
+#social-row {
+    position: relative;
+    height: 50px;
+    width: 50%;
+    left: 25%;
+    
+}
+
+.social-link {
+    float: left;
+    width: 50px;
+}
+
+.social-link img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#social-link {
+    float: left;
+    width: 33%;
+}
+
+#info {
+    position: absolute;
+    height: 100%;
+    width: 80%;
+    left: 20%;
+}
+
+#naslov {
+    position: absolute;
+    height: 8%;
+    top: 0;
+    width: 99%;
+    padding-left: 1%;
+    color: var(--baby-powder);
+}
+
+#galery {
+    position: relative;
+    height: 92%;
+    top: 8%;
+    width: 100%;
+    background-color: var(--dark-liver);
+    overflow: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 0 4px;
+    height: 90%;
+    top: 10%;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    flex: 33%;
+    max-width: 33%;
+    padding: 0 4px;
+}
+
+
+
+.column img {
+    margin-top: 8px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+
